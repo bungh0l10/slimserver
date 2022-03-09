@@ -440,7 +440,7 @@ sub getUpdateParams {
 sub canAutoUpdate { 1 }
 
 sub installerExtension { 'pkg' };
-sub installerOS { 'osx' }
+sub installerOS { 'osx-ng' }
 
 sub canRestartServer {
 	# we can't restart if LMS is being started as a system service
